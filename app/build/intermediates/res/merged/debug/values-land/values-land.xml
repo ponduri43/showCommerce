@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-land/values-land.xml -->
+    <eat-comment/>
+    <bool name="abc_action_bar_embed_tabs_pre_jb">true</bool>
+    <bool name="abc_config_allowActionMenuItemTextWithIcon">true</bool>
+    <dimen name="abc_action_bar_default_height_material">48dp</dimen>
+    <dimen name="abc_action_bar_default_padding_material">0dp</dimen>
+    <dimen name="abc_action_bar_progress_bar_size">32dp</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12dp</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14dp</dimen>
+    <!-- From: file:/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/src/main/res/values-land/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="home_topbar_height">55.0dp</dimen>
+    <dimen name="margin">10dp</dimen>
+    <dimen name="sessionbox">220.0dp</dimen>
+    <!-- From: file:/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/src/main/res/values-land/integers.xml -->
+    <eat-comment/>
+    <integer name="card_flip_time_full">300</integer>
+    <integer name="card_flip_time_half">150</integer>
+    <item name="grid_rows" type="integer">4</item>
+    <!-- From: file:/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/values-land/values-land.xml -->
+    <eat-comment/>
+    <style name="Widget.Design.TabLayout" parent="Base.Widget.Design.TabLayout">
+        <item name="tabGravity">center</item>
+        <item name="tabMode">fixed</item>
+    </style>
+</resources>

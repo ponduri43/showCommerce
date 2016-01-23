@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:staggered="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.samskrut.showcommerce.ProductOverView" >
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" >
+    </include>
+
+    <!-- <fragment
+        android:id="@+id/myfrag"
+        android:name="com.samskrut.showcommerce.PicturesFrgment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/app_bar" /> -->
+    
+    <FrameLayout
+        android:id="@+id/myfrag"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/app_bar" />
+
+</RelativeLayout><!-- From: file:/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/src/main/res/layout/activity_product_over_view.xml -->

@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="margin">10dp</dimen>
+    <dimen name="home_topbar_height">55.0dp</dimen> <!-- 45.0dp -->
+
+    <dimen name="sessionbox">220.0dp</dimen> <!-- 45.0dp -->
+
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-port/values-port.xml -->
+    <eat-comment/>
+    <bool name="abc_action_bar_embed_tabs">false</bool>
+    <!-- From: file:/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/src/main/res/values-port/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="home_topbar_height">55.0dp</dimen>
+    <dimen name="margin">10dp</dimen>
+    <dimen name="sessionbox">220.0dp</dimen>
+    <!-- From: file:/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/src/main/res/values-port/integers.xml -->
+    <eat-comment/>
+    <integer name="card_flip_time_full">300</integer>
+    <integer name="card_flip_time_half">150</integer>
+    <item name="grid_rows" type="integer">3</item>
+</resources>

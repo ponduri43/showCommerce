@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.samskrut.showcommerce.ProductOverView" >
+
+    <!--
+         <item
+        android:id="@+id/color_mi"
+        android:icon="@drawable/ic_action_ico_vdo"
+        android:orderInCategory="5"
+        android:showAsAction="always"
+        android:title="@string/action_settings"/>
+
+    -->
+    <item
+        android:id="@+id/video_mi"
+        android:icon="@drawable/ic_live_tv_black_dp"
+        android:orderInCategory="400"
+        app:showAsAction="always"
+        android:title="@string/ic_action_ico_vdo"/>
+    <item
+        android:id="@+id/rotaion_mi"
+        android:visible="false"
+        android:icon="@drawable/ic_3d_rotation_black_dp"
+        android:orderInCategory="300"
+        app:showAsAction="always"
+        android:title="@string/ic_action_360"/>
+    <item
+        android:id="@+id/swipe_mi"
+        android:icon="@drawable/ic_image_black_dp"
+        android:orderInCategory="200"
+        app:showAsAction="always"
+        android:title="@string/gallery"/>
+    <item
+        android:id="@+id/survey_mi"
+        android:icon="@drawable/ic_action_ico_form"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="@string/ic_action_ico_form"/>
+
+</menu><!-- From: file:/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/src/main/res/menu/product_overview.xml -->

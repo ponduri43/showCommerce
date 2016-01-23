@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/libs/eventbus-2.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a18ff12a9ab5ae52fd30d42f134517997568231e">
+        <dex dex="/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/build/intermediates/pre-dexed/debug/eventbus-2.2.1-09b2ea5acbad9d0da5e86809c13868c8bcc76834.jar" />
+    </item>
+    <item
+        jar="/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/libs/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-aeee50f7bae1ad1b71b00325a2586838d384ce0e.jar" />
+    </item>
+    <item
+        jar="/Users/ponduri/.gradle/caches/modules-2/files-2.1/com.birbit/android-priority-jobqueue/1.3.5/e1f76c4933647138c11c38c7ff738838be176055/android-priority-jobqueue-1.3.5.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e1f76c4933647138c11c38c7ff738838be176055">
+        <dex dex="/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/build/intermediates/pre-dexed/debug/android-priority-jobqueue-1.3.5-8cc5d884d3b22bc9b1afcfe6df3ae99283bc31a1.jar" />
+    </item>
+    <item
+        jar="/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/libs/ParseCrashReporting-1.8.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="55e71442ecbce939ce2a1ad75d1a4408a61d6804">
+        <dex dex="/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/build/intermediates/pre-dexed/debug/ParseCrashReporting-1.8.0-12c44f4d14714221dd1e6fc45fa6223a6a49a999.jar" />
+    </item>
+    <item
+        jar="/Users/ponduri/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.17/f417d7f776d1ee5858fc04d9362aa45e9bedd26b/library-1.0.17.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f417d7f776d1ee5858fc04d9362aa45e9bedd26b">
+        <dex dex="/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/build/intermediates/pre-dexed/debug/library-1.0.17-6051ca6056e074edc21890acbe7f1e46eb9c3b08.jar" />
+    </item>
+    <item
+        jar="/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.0.30/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="cebe8e4a3a469c4623addcca1dc571407ff3a08e">
+        <dex dex="/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/build/intermediates/pre-dexed/debug/classes-620f74a3877358f889e11e194b547712017e5f75.jar" />
+    </item>
+    <item
+        jar="/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/libs/Parse-1.8.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61cf79e2775b882ac0ea32d60ea2dbbf6f245cea">
+        <dex dex="/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/build/intermediates/pre-dexed/debug/Parse-1.8.0-aa8ae0411f901b9bbc2d660b1b5440bf1c2aa061.jar" />
+    </item>
+    <item
+        jar="/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/build/intermediates/pre-dexed/debug/classes-51f4e23bcc238ca571a883fad5968ac6e19983cc.jar" />
+    </item>
+    <item
+        jar="/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/libs/pinchzoom.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a4def992b1f41525748db059dfdd21322cc3157e">
+        <dex dex="/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/build/intermediates/pre-dexed/debug/pinchzoom-b1a4b012f6a70ef925e67057f083b87bb48e1403.jar" />
+    </item>
+    <item
+        jar="/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/libs/android-support-v7-recyclerview.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0b5adf926c097329904a2f263e7b51f259020634">
+        <dex dex="/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/build/intermediates/pre-dexed/debug/android-support-v7-recyclerview-c42173b57951aba623cf98f54d2e3bdbaf264475.jar" />
+    </item>
+    <item
+        jar="/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="78b8f6e37921559ed21c1fae1f30f9f713494db8">
+        <dex dex="/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/build/intermediates/pre-dexed/debug/YouTubeAndroidPlayerApi-e676f5ad09ddf719f1fa307e190701fd7839438a.jar" />
+    </item>
+    <item
+        jar="/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/build/intermediates/pre-dexed/debug/classes-830989686df75d3ee47b2a743522b3ada4ca4a89.jar" />
+    </item>
+    <item
+        jar="/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="97f7e239e86ef994de894818fdd8a71d2e89d6aa">
+        <dex dex="/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/build/intermediates/pre-dexed/debug/classes-b85546e00f1ac1d1c0dd53f6445669d8afddc0c9.jar" />
+    </item>
+    <item
+        jar="/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/build/intermediates/pre-dexed/debug/classes-a078e0276688e5a24be00b88d48634e51b80efe5.jar" />
+    </item>
+    <item
+        jar="/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-5a879f3d964ae1e4ae204f4d5e4f17eb0ffb3446.jar" />
+    </item>
+    <item
+        jar="/Users/ponduri/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-16d30b1ead43f29be3511afb72080591f33d462f.jar" />
+    </item>
+
+</items>

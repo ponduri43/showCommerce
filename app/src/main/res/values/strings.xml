@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name"> Show Commerce</string>
+    <string name="hello_world">Comming Soon</string>
+    <string name="gallery">Gallery</string>
+     <string name="ic_action_360">360 view</string>
+      <string name="ic_action_ico_form">Form</string>
+       <string name="ic_action_ico_vdo">Video</string>
+    
+    <string name="title_activity_signin_page">SigninPage</string>
+    <string name="username">User Name</string>
+    <string name="password">Password</string>
+    <string name="title_activity_main_gallery_screen">MainGalleryScreen</string>
+    <string name="title_activity_main_gallery_screen2">parseLongOperation</string>
+    <string name="title_activity_product_list">ProductList</string>
+    <string name="title_activity_product_over_view">ProductOverView</string>
+    <string name="hint">"123"</string>
+    <string name="search">Search by Name or Code</string>
+    <string name="with_seesion">New Customer Session</string>
+    <string name="without_session">Casual Mode</string>
+    <string name="casual_mode_toast">  Not available for Casual Mode</string>
+    
+    <string name="logintext">Login</string>
+    <string name="downloadtv1">Login</string>
+    <string name="downloadtv2">Please Wait... </string>
+    <string name="downloadtv3">Downloading Content... </string>
+    <string name="downloadtv4">Content Downloaded </string>
+    
+    
+    <string name="hidden_text">There is no content here </string>
+    
+    <string name="opendrawer">open</string>
+    <string name="closedrawer">close</string>
+    <string name="title_activity_search_results">SearchResultsActivity</string>
+    <string name="title_activity_product_temp">ProductTemp</string>
+    <string name="action_settings">Settings</string>
+
+
+</resources>

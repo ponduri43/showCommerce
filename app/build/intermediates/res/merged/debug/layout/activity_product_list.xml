@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/DrawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--<include
+            android:id="@+id/app_bar"
+            layout="@layout/app_bar"></include>-->
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/cardList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/app_bar" />
+
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/lvExp"
+        android:layout_width="320dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|start"
+        android:background="@android:color/white">
+        <!--android:groupIndicator="@drawable/expandablelist_indicator"-->
+
+    </ExpandableListView>
+
+</android.support.v4.widget.DrawerLayout>
+<!-- From: file:/Users/ponduri/Dropbox/samskrut_android_2015/sc/showcommerce/app/src/main/res/layout/activity_product_list.xml -->
