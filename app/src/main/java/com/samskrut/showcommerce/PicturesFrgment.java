@@ -107,8 +107,8 @@ public class PicturesFrgment extends Fragment
 		else
 		{
 
-			mViewPager.setVisibility(8);
-			hidden_tv.setVisibility(0);
+			mViewPager.setVisibility(View.GONE);
+			hidden_tv.setVisibility(View.VISIBLE);
 
 		}
 
@@ -479,7 +479,7 @@ public class PicturesFrgment extends Fragment
 				if (((ActionBarActivity)getActivity()).getSupportActionBar().isShowing())
 				{
 
-					PicturesFrgment.myGallery.setVisibility(8);
+					PicturesFrgment.myGallery.setVisibility(View.GONE);
 					((ActionBarActivity)getActivity()).getSupportActionBar().hide();
 					
 					//ProductOverView.toolbar.animate().translationY(-ProductOverView.toolbar.getBottom()).setInterpolator(new AccelerateInterpolator()).start();
@@ -493,7 +493,7 @@ public class PicturesFrgment extends Fragment
 				}
 				else
 				{
-					PicturesFrgment.myGallery.setVisibility(0);
+					PicturesFrgment.myGallery.setVisibility(View.VISIBLE);
 					((ActionBarActivity)getActivity()).getSupportActionBar().show();
 					//ProductOverView.toolbar.animate().translationY(0).setInterpolator(new DecelerateInterpolator()).start();
 

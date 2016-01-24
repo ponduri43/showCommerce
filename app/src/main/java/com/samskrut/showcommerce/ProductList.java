@@ -182,7 +182,7 @@ public class ProductList extends Activity {
             expListView.setIndicatorBounds(width - GetPixelFromDips(250), width - GetPixelFromDips(200));
             //searchExpListView.setIndicatorBounds(width - GetPixelFromDips(50), width - GetPixelFromDips(10));
         } else {
-            expListView.setIndicatorBoundsRelative(width - GetPixelFromDips(350), width - GetPixelFromDips(250));
+            expListView.setIndicatorBoundsRelative(width - GetPixelFromDips(175), width - GetPixelFromDips(75));
             //searchExpListView.setIndicatorBoundsRelative(width - GetPixelFromDips(50), width - GetPixelFromDips(10));
         }
     }
