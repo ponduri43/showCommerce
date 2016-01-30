@@ -87,7 +87,8 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter
 
 				Constants.pid = pid;
 				Constants.pname = pname;
-				Constants.pcost ="4999";
+				Constants.pcost ="temp";
+				//Constants.pinfo=
 
 				if (InfoTracker.usersessionid > 0)
 				{

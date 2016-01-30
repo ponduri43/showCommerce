@@ -82,13 +82,13 @@ public class VideoFragment extends Fragment
 
 		if (isInternetPresent)
 		{
-			pb.setVisibility(0);
+			pb.setVisibility(View.VISIBLE);
 			new RemoteDataTask().execute();
 
 		}
 		else
 		{
-			hiden_tv.setVisibility(0);
+			hiden_tv.setVisibility(View.VISIBLE);
 			hiden_tv.setText("Check Internet Connectivity");
 
 		}
@@ -192,8 +192,8 @@ public class VideoFragment extends Fragment
 			if (videolist != null && videolist.size() > 0 && getActivity() != null && !getActivity().isFinishing())
 			{
 
-				pb.setVisibility(8);
-				youtubegv.setVisibility(0);
+				pb.setVisibility(View.GONE);
+				youtubegv.setVisibility(View.VISIBLE);
 
 				adapter = new CustomGrid(getActivity(), videolist);
 				// Binds the Adapter to the ListView
@@ -216,8 +216,8 @@ public class VideoFragment extends Fragment
 
 				if (getActivity() != null && !getActivity().isFinishing())
 				{
-					pb.setVisibility(8);
-					hiden_tv.setVisibility(0);
+					pb.setVisibility(View.GONE);
+					hiden_tv.setVisibility(View.VISIBLE);
 				}
 
 			}

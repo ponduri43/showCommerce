@@ -555,14 +555,14 @@ public final class R {
 		public static final int abc_search_view = 0x7f040016;
 		public static final int abc_select_dialog_material = 0x7f040017;
 		public static final int abc_simple_dropdown_hint = 0x7f040018;
-		public static final int notification_media_action = 0x7f040030;
-		public static final int notification_media_cancel_action = 0x7f040031;
-		public static final int notification_template_big_media = 0x7f040032;
-		public static final int notification_template_big_media_narrow = 0x7f040033;
-		public static final int notification_template_lines = 0x7f040034;
-		public static final int notification_template_media = 0x7f040035;
-		public static final int notification_template_part_chronometer = 0x7f040036;
-		public static final int notification_template_part_time = 0x7f040037;
+		public static final int notification_media_action = 0x7f04002f;
+		public static final int notification_media_cancel_action = 0x7f040030;
+		public static final int notification_template_big_media = 0x7f040031;
+		public static final int notification_template_big_media_narrow = 0x7f040032;
+		public static final int notification_template_lines = 0x7f040033;
+		public static final int notification_template_media = 0x7f040034;
+		public static final int notification_template_part_chronometer = 0x7f040035;
+		public static final int notification_template_part_time = 0x7f040036;
 		public static final int select_dialog_item_material = 0x7f04003e;
 		public static final int select_dialog_multichoice_material = 0x7f04003f;
 		public static final int select_dialog_singlechoice_material = 0x7f040040;
@@ -586,7 +586,7 @@ public final class R {
 		public static final int abc_shareactionprovider_share_with = 0x7f07000b;
 		public static final int abc_shareactionprovider_share_with_application = 0x7f07000c;
 		public static final int abc_toolbar_collapse_description = 0x7f07002a;
-		public static final int status_bar_notification_info_overflow = 0x7f07003f;
+		public static final int status_bar_notification_info_overflow = 0x7f070041;
 	}
 	public static final class style {
 		public static final int AlertDialog_AppCompat = 0x7f090076;

@@ -271,6 +271,7 @@ public class ProductList extends Activity {
                 Constants.pid = apoList.get(position).getPid();
                 Constants.pname = apoList.get(position).getPname();
                 Constants.pcost = apoList.get(position).getPcost();
+                Constants.pinfo = apoList.get(position).getPinfo();
 
                 if (InfoTracker.usersessionid > 0) {
 
@@ -299,7 +300,7 @@ public class ProductList extends Activity {
                 Constants.pid = apoList.get(position).getPid();
                 Constants.pname = apoList.get(position).getPname();
                 Constants.pcost = apoList.get(position).getPcost();
-
+                Constants.pinfo = apoList.get(position).getPinfo();
                 if (InfoTracker.usersessionid > 0) {
 
                     InfoTracker.resetValuesAtProductLevel();
@@ -408,7 +409,7 @@ public class ProductList extends Activity {
                 Constants.pid = productList.get(pos).getPid();
                 Constants.pname = productList.get(pos).getPname();
                 Constants.pcost = productList.get(pos).getPcost();
-
+                Constants.pinfo = productList.get(pos).getPinfo();
                 if (InfoTracker.usersessionid > 0) {
 
                     InfoTracker.resetValuesAtProductLevel();

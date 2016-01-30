@@ -12,17 +12,24 @@
         android:title="@string/action_settings"/>
 
     -->
+
+        <item
+       android:id="@+id/product_info_mi"
+       android:icon="@android:drawable/ic_menu_info_details"
+       android:orderInCategory="100"
+       app:showAsAction="always"
+       android:title="@string/ic_product_info"/>
     <item
         android:id="@+id/video_mi"
         android:icon="@drawable/ic_live_tv_black_dp"
-        android:orderInCategory="400"
+        android:orderInCategory="300"
         app:showAsAction="always"
         android:title="@string/ic_action_ico_vdo"/>
     <item
         android:id="@+id/rotaion_mi"
         android:visible="false"
         android:icon="@drawable/ic_3d_rotation_black_dp"
-        android:orderInCategory="300"
+        android:orderInCategory="400"
         app:showAsAction="always"
         android:title="@string/ic_action_360"/>
     <item
@@ -34,7 +41,7 @@
     <item
         android:id="@+id/survey_mi"
         android:icon="@drawable/ic_action_ico_form"
-        android:orderInCategory="100"
+        android:orderInCategory="500"
         app:showAsAction="always"
         android:title="@string/ic_action_ico_form"/>
 

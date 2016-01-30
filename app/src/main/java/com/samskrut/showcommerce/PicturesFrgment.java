@@ -359,6 +359,7 @@ public class PicturesFrgment extends Fragment
 		ImageView mImage;
 		ImageButton mbutton;
 		Bitmap bmp;
+		TextView product_info_tv;
 
 		static SinglePictureFragment newInstance(int position)
 		{
@@ -382,8 +383,10 @@ public class PicturesFrgment extends Fragment
 		{
 			View result = inflater.inflate(R.layout.single_picture_ov, container, false);
 			mbutton = (ImageButton) result.findViewById(R.id.editor1);
+
 			// mImage = (TouchImageView) result.findViewById(R.id.flag);
 			mImage = (ImageView) result.findViewById(R.id.flag);
+
 			int position = getArguments().getInt(KEY_POSITION, -1);
 
 			String url = purls.get(position);
@@ -411,7 +414,7 @@ public class PicturesFrgment extends Fragment
 			 * options.inPreferredConfig = Bitmap.Config.ARGB_8888; Bitmap bmp =
 			 * BitmapFactory.decodeFile(imageInSD, options);
 			 */
-			Bitmap bmp = BitmapFactory.decodeFile(imageInSD);
+			bmp = BitmapFactory.decodeFile(imageInSD);
 			mImage.setImageBitmap(bmp);
 			// original = Bitmap.createBitmap(bm, 0, 0, bm.getWidth(),
 			// bm.getHeight(), matrix, true);

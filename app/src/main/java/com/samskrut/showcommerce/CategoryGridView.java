@@ -224,7 +224,7 @@ public class CategoryGridView extends AppCompatActivity {
                 Constants.pid = apoList.get(position).getPid();
                 Constants.pname = apoList.get(position).getPname();
                 Constants.pcost = apoList.get(position).getPcost();
-
+                Constants.pinfo = apoList.get(position).getPinfo();
                 // at category level along with action bar
                 if (InfoTracker.usersessionid > 0) {
 
@@ -252,7 +252,7 @@ public class CategoryGridView extends AppCompatActivity {
                 Constants.pid = apoList.get(position).getPid();
                 Constants.pname = apoList.get(position).getPname();
                 Constants.pcost = apoList.get(position).getPcost();
-
+                Constants.pinfo = apoList.get(position).getPinfo();
                 // at category level along with action bar
                 if (InfoTracker.usersessionid > 0) {
 

@@ -3,6 +3,7 @@ package com.samskrut.showcommerce;
 import java.io.File;
 
 import android.app.ActionBar;
+import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
@@ -18,10 +19,15 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.Display;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
+import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.samskrut.showcommerce.database.DBAdapter;
@@ -63,15 +69,15 @@ public class ProductOverView extends ActionBarActivity
 		toolbar = (Toolbar) findViewById(R.id.app_bar);
 
 		toolbar.setTitle(Constants.pname);
-		toolbar.setSubtitle("Rs." + Constants.pcost);
+		//toolbar.setSubtitle("Rs." + Constants.pcost);
 		// toolbar.setBackgroundDrawable(new
 		// ColorDrawable(Color.parseColor("#ff0099cc")));
 		setSupportActionBar(toolbar);
 
-		getSupportActionBar().setDisplayShowHomeEnabled(true);
+		getSupportActionBar().setDisplayShowHomeEnabled(false);
 
 		toolbar.setNavigationIcon(R.drawable.ic_action_back);
-		toolbar.setLogo(R.drawable.ic_launcher);
+		//toolbar.setLogo(R.drawable.ic_launcher);
 		initializeTabBarUIElements();
 
 		FragmentManager fm = getSupportFragmentManager();
@@ -111,16 +117,20 @@ public class ProductOverView extends ActionBarActivity
 		FragmentManager fm = getSupportFragmentManager();
 		FragmentTransaction fragmentTransaction = fm.beginTransaction();
 
+		Fragment currentfragment = fm.findFragmentById(R.id.myfrag);
 		switch (item.getItemId())
 		{
 
 		case R.id.video_mi:
-			fr = new VideoFragment();
-			fragmentTransaction.replace(R.id.myfrag, fr);
+			if (currentfragment instanceof VideoFragment ){
+				Toast.makeText(context, R.string.msg, Toast.LENGTH_SHORT).show();
+			}else {
+				fr = new VideoFragment();
+				fragmentTransaction.replace(R.id.myfrag, fr);
 
-			fragmentTransaction.commit();
-
-			break;
+				fragmentTransaction.commit();
+			}
+			return true;
 		case R.id.rotaion_mi:
 			
 			//36 images swipe code
@@ -169,14 +179,21 @@ public class ProductOverView extends ActionBarActivity
 			fragmentTransaction.commit();
 
 
-			break;
+			return true;
 		case R.id.swipe_mi:
-			fr = new PicturesFrgment();
-			fragmentTransaction.replace(R.id.myfrag, fr);
 
-			fragmentTransaction.commit();
 
-			break;
+			if (currentfragment instanceof PicturesFrgment)
+			{
+				Toast.makeText(context, R.string.msg, Toast.LENGTH_SHORT).show();
+			}else {
+				fr = new PicturesFrgment();
+				fragmentTransaction.replace(R.id.myfrag, fr);
+
+				fragmentTransaction.commit();
+			}
+
+			return true;
 		case R.id.survey_mi:
 			if (InfoTracker.usersessionid > 0)
 			{
@@ -189,7 +206,7 @@ public class ProductOverView extends ActionBarActivity
 
 			}
 
-			break;
+			return true;
 		case android.R.id.home:
 			if (InfoTracker.cid != 0 && InfoTracker.pid != 0)
 			{
@@ -198,9 +215,14 @@ public class ProductOverView extends ActionBarActivity
 			else
 			{
 				finish();
-				break;
-			}
 
+			}
+			return true;
+
+			case R.id.product_info_mi:
+
+				showPinfo();
+				return true;
 		default:
 			Log.d("bis", "default");
 
@@ -211,6 +233,50 @@ public class ProductOverView extends ActionBarActivity
 		return true;
 	}
 
+	private  void showPinfo(){
+		// Create custom dialog object
+		final Dialog dialog = new Dialog(ProductOverView.this);
+		// Include dialog.xml file
+		dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+
+		Display display =((WindowManager) getSystemService(context.WINDOW_SERVICE)).getDefaultDisplay();
+		int width = display.getWidth();
+		int height=display.getHeight();
+		dialog.setContentView(R.layout.product_info_layout);
+		dialog.getWindow().setLayout((6 * width) / 7, (4 * height) / 5);
+		dialog.setCancelable(true);
+
+
+		// Set dialog title
+		//dialog.setTitle("short info");
+
+		// set values for custom dialog components - text, image and button
+		TextView pi_name = (TextView) dialog.findViewById(R.id.pi_name);
+		pi_name.setText(Constants.pname);
+		TextView pi_body = (TextView) dialog.findViewById(R.id.pi_body);
+		pi_body.setText(Constants.pname);
+		TextView pi_cost = (TextView) dialog.findViewById(R.id.pi_cost);
+		pi_cost.setText("RS. " + Constants.pcost);
+		ImageView piclose = (ImageView) dialog.findViewById(R.id.pi_close);
+		piclose.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				dialog.dismiss();
+			}
+		});
+
+		dialog.show();
+
+		/*Button declineButton = (Button) dialog.findViewById(R.id.declineButton);
+		// if decline button is clicked, close the custom dialog
+		declineButton.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				// Close dialog
+				dialog.dismiss();
+			}
+		});*/
+	}
 	@Override
 	public void onBackPressed()
 	{

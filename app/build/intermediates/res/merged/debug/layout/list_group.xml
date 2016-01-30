@@ -12,6 +12,7 @@
 
         <ImageView
             android:layout_width="wrap_content"
+            android:visibility="gone"
             android:layout_height="wrap_content" 
             android:src="@drawable/ic_action_ico_img"/>
 

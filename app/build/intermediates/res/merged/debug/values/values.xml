@@ -396,7 +396,9 @@
     <string name="ic_action_360">360 view</string>
     <string name="ic_action_ico_form">Form</string>
     <string name="ic_action_ico_vdo">Video</string>
+    <string name="ic_product_info">Product Info</string>
     <string name="logintext">Login</string>
+    <string name="msg">You are in same Screen</string>
     <string name="opendrawer">open</string>
     <string name="password">Password</string>
     <string name="search">Search by Name or Code</string>
